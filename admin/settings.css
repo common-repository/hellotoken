@@ -1,0 +1,77 @@
+.hellotoken-settings-area {
+  margin: 25px 0 0 25px;
+  width: 580px;
+}
+
+.hellotoken-settings-area h2 {
+  color: #000;
+}
+
+.hellotoken-settings-area h2 span {
+  color: #5d6167;
+  display: block;
+  padding-top: 20px;
+}
+
+p.hellotoken-submit {
+  margin-top: 40px;
+}
+
+p.hellotoken-wp-settings-page {
+  margin-top: 20px;
+}
+
+.hellotoken-save-message {
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 10px;
+  line-height: 25px;
+  display: none;
+}
+
+input[name=hellotoken-save-settings] {
+  float: left;
+}
+
+.hellotoken-spinner {
+  float: left;
+}
+
+/* for our tabs */
+
+.hellotoken-tabs {
+  border-bottom: 2px solid #717171;
+  padding-left: 5px;
+}
+
+.hellotoken-tab {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: -2px;
+}
+
+.hellotoken-tab a {
+  border: 2px solid #717171;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background: #f1f1f1;
+  display: block;
+  padding: 12px 16px;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.hellotoken-active-tab a {
+  border-bottom-color: transparent;
+}
+
+.hellotoken-tab-content {
+  display: none;
+}
+
+/* for slower loading browsers we will want to show initial content regardless */
+.hellotoken-active-tab-content {
+  display: block;
+}

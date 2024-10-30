@@ -1,0 +1,40 @@
+/* CSS RESET */
+#hellotoken-dialog, #hellotoken-dialog * {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    line-height: 1;
+}
+
+/* ----- Iframe Styling ---- */
+
+#hellotoken-dialog iframe {
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 100%;
+   width: 100%;
+   z-index: 2147483647;
+}
+
+#hellotoken-iframe {
+    border: none;
+}
+
+/* --------- */
+
+#hellotoken-grayout {
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    background-color: #FFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    z-index: 2147483646;
+}

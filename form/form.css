@@ -1,0 +1,176 @@
+.hellotoken-form h3 {
+  color: #5d6167;
+}
+
+.hellotoken-form h2 {
+  color: #5d6167 !important;
+  line-height: 180% !important;
+  margin-top: 20px !important;
+  padding-left: 35px !important;
+}
+
+.hellotoken-form-table {
+  border-collapse: collapse;
+  margin-top: .5em;
+  width: 100%;
+  margin-bottom: -8px;
+  clear: both;
+}
+
+.hellotoken-form-table td {
+  margin-bottom: 9px;
+  padding: 8px 10px;
+  line-height: 20px;
+}
+
+.hellotoken-form-table td.hellotoken-table-padding {
+  padding-top: 0;
+}
+
+.hellotoken-form-table th, .hellotoken-form-table td {
+  padding: 10px;
+  color: #5d6167;
+  text-align: left;
+}
+
+.hellotoken-form-table th {
+  vertical-align: middle;
+  width: 190px;
+}
+
+.hellotoken-form-table input[type=text], .hellotoken-form-table input[type=number] {
+  line-height: 16px;
+  height: 28px;
+  color: #5d6167;
+  padding: 3px 8px;
+  border: #d6dce2 1px solid;
+  background-color: #fff;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  outline: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.hellotoken-form-table input[type=text]:hover, .hellotoken-form-table input[type=number]:hover {
+  border-color: #babec3;
+}
+
+.hellotoken-form-table input[type=text]:focus, .hellotoken-form-table input[type=number]:focus {
+  -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  border-color: #9099a3;
+}
+
+.hellotoken-form-table input.hellotoken-button {
+  margin-left: 1px;
+}
+
+input.hellotoken-website {
+  width: 230px;
+}
+
+input.hellotoken-pass {
+  width: 69px;
+  text-align: right;
+}
+
+.hellotoken-form-table th span {
+  font: normal 13px 'Proxima Nova';
+  color: #c2c6cb;
+  display: block;
+  margin-top: 10px;
+}
+
+.hellotoken-form-table th span a {
+  color: #9099a3;
+}
+
+.hellotoken-form-table th span a:hover {
+  text-decoration: none;
+}
+
+.hellotoken-form-table input.hellotoken-color-picker {
+  width: 90px;
+  padding-left: 27px;
+}
+
+.hellotoken-form-table,
+.hellotoken-form-table,
+.hellotoken-form-table {
+  border-color: #ff0000;
+}
+
+.hellotoken-form-table {
+  padding-left: 35px;
+}
+
+/* added for tabs */
+/* colors from bootstrap */
+.hellotoken-form-id-errors,
+.hellotoken-form-url-errors,
+.hellotoken-form-errors,
+.hellotoken-form-success,
+.hellotoken-form-demo,
+.hellotoken-show-amount,
+.hellotoken-append-message{
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ebccd1;
+  border-radius: 4px;
+  color: #a94442;
+  background-color: #f2dede;
+}
+
+.hellotoken-form-success {
+  color: #44a942;
+  background-color: #def2de;
+  border-color: #ccebd1;
+}
+
+.hellotoken-form-demo {
+  color: #a94442;
+  background-color: #fef7f1;
+  border-color: #ccc;
+}
+
+.hellotoken-show-amount,
+.hellotoken-append-message {
+  color: #00a0d2;
+  background-color: #fef7f1;
+  border-color: #ccc;
+}
+
+.hellotoken-show-amount {
+  color: #0e3950;
+}
+
+div.hellotoken-button-red.disabled {
+  /** need to override the WP colors **/
+  background-color: gray !important;
+}
+
+div.hellotoken-button-red.disabled:hover {
+  cursor: not-allowed;
+}
+
+div.hellotoken-button-green.disabled {
+  /** need to override the WP colors **/
+  background-color: gray !important;
+}
+
+div.hellotoken-button-green.disabled:hover {
+  /** need to override the WP colors **/
+  cursor: not-allowed;
+}
+
+div.hellotoken-button-red:hover {
+  background-color: pink !important;
+}
+
+div.hellotoken-button-green:hover {
+  /** need to override the WP colors **/
+  background-color: lightgreen !important;
+}

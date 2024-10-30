@@ -1,0 +1,48 @@
+.hellotoken_hidden { /* not used */
+  display: none;
+}
+
+.hellotoken-button {
+  cursor: pointer;
+}
+
+.hellotoken-button[disabled] {
+  cursor: wait;
+}
+
+#hellotoken-enable-all { /* not used */
+  color: green;
+}
+
+#hellotoken-disable-all { /* not used */
+  color: red;
+}
+
+#hellotoken-toggle-message { /* not used */
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 10px;
+  line-height: 25px;
+  display: none;
+}
+
+
+/* bulkedit */
+
+.hellotoken-inline-edit {
+  float: right;
+  width: 49%;
+
+  padding: 10px .5em;
+  background: #F2F2F2;
+  border-radius: 3px;
+  margin-top: 12px;
+}
+
+.hellotoken-inline-edit .hellotoken-title {
+  display: block;
+  float: left;
+  width: 6em;
+  line-height: 1.2;
+  font-weight: bold;
+}
